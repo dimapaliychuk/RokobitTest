@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  SunsetAndSunrise
+
+  Created by Dima Paliychuk on 4/18/18.
+  Copyright © 2018 Dima Paliychuk. All rights reserved.
+*/
+
+"login" = "Войти";
+"logout" = "Выйти";
+"phone_number" = "Номер телефона";
+"password" = "Пароль";
+"login_error" = "Похоже, вы не правильно указали номер телефона или пароль";
+"sosial_title" = "Войти через социальною сеть";
+"help_login" = "Помощь со входом";

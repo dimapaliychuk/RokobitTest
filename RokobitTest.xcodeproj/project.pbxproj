@@ -1,0 +1,796 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		321257032099F64E00DDA8BD /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321257022099F64E00DDA8BD /* DBManager.swift */; };
+		322955032099A29F003819B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322955022099A29F003819B0 /* AppDelegate.swift */; };
+		322955082099A29F003819B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 322955062099A29F003819B0 /* Main.storyboard */; };
+		3229550A2099A29F003819B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 322955092099A29F003819B0 /* Assets.xcassets */; };
+		3229550D2099A29F003819B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3229550B2099A29F003819B0 /* LaunchScreen.storyboard */; };
+		3229553A2099A4DA003819B0 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322955392099A4DA003819B0 /* LoginVC.swift */; };
+		3229553C2099A620003819B0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3229553B2099A620003819B0 /* Constants.swift */; };
+		322955402099A712003819B0 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3229553F2099A712003819B0 /* API.swift */; };
+		322955422099A80E003819B0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322955412099A80E003819B0 /* User.swift */; };
+		322955452099A8EB003819B0 /* DataRequest+JSONJoy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322955432099A8EB003819B0 /* DataRequest+JSONJoy.swift */; };
+		322955462099A8EB003819B0 /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322955442099A8EB003819B0 /* BaseService.swift */; };
+		3267F8562099E3EA00AC7DB5 /* UIStoryBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3267F8552099E3EA00AC7DB5 /* UIStoryBoard.swift */; };
+		328D93822099B1B80012ABBB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 328D93812099B1B80012ABBB /* Localizable.strings */; };
+		328D93842099B2B50012ABBB /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328D93832099B2B50012ABBB /* MainVC.swift */; };
+		328D93872099B67C0012ABBB /* String+localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328D93862099B67C0012ABBB /* String+localized.swift */; };
+		328D938F2099C0B80012ABBB /* CountryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328D938A2099C0B70012ABBB /* CountryList.swift */; };
+		328D93902099C0B80012ABBB /* Countries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328D938C2099C0B70012ABBB /* Countries.swift */; };
+		328D93912099C0B80012ABBB /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328D938D2099C0B70012ABBB /* Country.swift */; };
+		328D93922099C0B80012ABBB /* CountryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328D938E2099C0B80012ABBB /* CountryCell.swift */; };
+		328D93942099CB480012ABBB /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328D93932099CB480012ABBB /* Colors.swift */; };
+		328D93962099DFE20012ABBB /* HelpLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328D93952099DFE20012ABBB /* HelpLoginVC.swift */; };
+		D61EAC4F1E001DBBFEC6579D /* Pods_RokobitTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9998519F78BFC32B6949644 /* Pods_RokobitTest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		322955142099A29F003819B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 322954F72099A29E003819B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 322954FE2099A29E003819B0;
+			remoteInfo = RokobitTest;
+		};
+		3229551F2099A29F003819B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 322954F72099A29E003819B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 322954FE2099A29E003819B0;
+			remoteInfo = RokobitTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1510E6FB3F38CBAE38150C3C /* Pods-RokobitTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RokobitTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-RokobitTest/Pods-RokobitTest.release.xcconfig"; sourceTree = "<group>"; };
+		2FF7C2E07AE925B74ACC701C /* Pods_RokobitTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RokobitTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		321257022099F64E00DDA8BD /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		322954FF2099A29F003819B0 /* RokobitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RokobitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		322955022099A29F003819B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		322955072099A29F003819B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		322955092099A29F003819B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3229550C2099A29F003819B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3229550E2099A29F003819B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		322955132099A29F003819B0 /* RokobitTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RokobitTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3229551E2099A29F003819B0 /* RokobitTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RokobitTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		322955392099A4DA003819B0 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		3229553B2099A620003819B0 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3229553F2099A712003819B0 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		322955412099A80E003819B0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		322955432099A8EB003819B0 /* DataRequest+JSONJoy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DataRequest+JSONJoy.swift"; sourceTree = "<group>"; };
+		322955442099A8EB003819B0 /* BaseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
+		3267F8552099E3EA00AC7DB5 /* UIStoryBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStoryBoard.swift; sourceTree = "<group>"; };
+		328D93812099B1B80012ABBB /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		328D93832099B2B50012ABBB /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		328D93862099B67C0012ABBB /* String+localized.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+localized.swift"; sourceTree = "<group>"; };
+		328D938A2099C0B70012ABBB /* CountryList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryList.swift; sourceTree = "<group>"; };
+		328D938B2099C0B70012ABBB /* CountryList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountryList.h; sourceTree = "<group>"; };
+		328D938C2099C0B70012ABBB /* Countries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Countries.swift; sourceTree = "<group>"; };
+		328D938D2099C0B70012ABBB /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		328D938E2099C0B80012ABBB /* CountryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryCell.swift; sourceTree = "<group>"; };
+		328D93932099CB480012ABBB /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		328D93952099DFE20012ABBB /* HelpLoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpLoginVC.swift; sourceTree = "<group>"; };
+		743EB6FEACC3511F7FFE6824 /* Pods-RokobitTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RokobitTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RokobitTest/Pods-RokobitTest.debug.xcconfig"; sourceTree = "<group>"; };
+		B9998519F78BFC32B6949644 /* Pods_RokobitTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RokobitTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C901D45F6F008E7B7A1A4024 /* Pods_RokobitTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RokobitTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		322954FC2099A29E003819B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D61EAC4F1E001DBBFEC6579D /* Pods_RokobitTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		322955102099A29F003819B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3229551B2099A29F003819B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		321257012099F64700DDA8BD /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				321257022099F64E00DDA8BD /* DBManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		322954F62099A29E003819B0 = {
+			isa = PBXGroup;
+			children = (
+				322955012099A29F003819B0 /* RokobitTest */,
+				322955002099A29F003819B0 /* Products */,
+				B63381F99B7099B4F2D276F7 /* Pods */,
+				D1484539833D46C729674EB2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		322955002099A29F003819B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				322954FF2099A29F003819B0 /* RokobitTest.app */,
+				322955132099A29F003819B0 /* RokobitTestTests.xctest */,
+				3229551E2099A29F003819B0 /* RokobitTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		322955012099A29F003819B0 /* RokobitTest */ = {
+			isa = PBXGroup;
+			children = (
+				328D93882099C03F0012ABBB /* Thirdparty */,
+				322955312099A3FB003819B0 /* Main */,
+				322955302099A3DD003819B0 /* VC */,
+				322955372099A46E003819B0 /* UI */,
+				322955362099A463003819B0 /* Models */,
+				321257012099F64700DDA8BD /* Managers */,
+				322955332099A428003819B0 /* API */,
+				328D93852099B66E0012ABBB /* Extensions & Utils */,
+				322955322099A413003819B0 /* Resources */,
+				322955352099A44D003819B0 /* Supporting Files */,
+			);
+			path = RokobitTest;
+			sourceTree = "<group>";
+		};
+		322955302099A3DD003819B0 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				322955392099A4DA003819B0 /* LoginVC.swift */,
+				328D93952099DFE20012ABBB /* HelpLoginVC.swift */,
+				328D93832099B2B50012ABBB /* MainVC.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		322955312099A3FB003819B0 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				322955022099A29F003819B0 /* AppDelegate.swift */,
+				3229553B2099A620003819B0 /* Constants.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		322955322099A413003819B0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				322955092099A29F003819B0 /* Assets.xcassets */,
+				328D93932099CB480012ABBB /* Colors.swift */,
+				328D93812099B1B80012ABBB /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		322955332099A428003819B0 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				3229553F2099A712003819B0 /* API.swift */,
+				322955342099A430003819B0 /* Base */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		322955342099A430003819B0 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				322955442099A8EB003819B0 /* BaseService.swift */,
+				322955432099A8EB003819B0 /* DataRequest+JSONJoy.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		322955352099A44D003819B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3229550E2099A29F003819B0 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		322955362099A463003819B0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				322955412099A80E003819B0 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		322955372099A46E003819B0 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				322955382099A477003819B0 /* Storyboards */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		322955382099A477003819B0 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				322955062099A29F003819B0 /* Main.storyboard */,
+				3229550B2099A29F003819B0 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		328D93852099B66E0012ABBB /* Extensions & Utils */ = {
+			isa = PBXGroup;
+			children = (
+				328D93862099B67C0012ABBB /* String+localized.swift */,
+				3267F8552099E3EA00AC7DB5 /* UIStoryBoard.swift */,
+			);
+			path = "Extensions & Utils";
+			sourceTree = "<group>";
+		};
+		328D93882099C03F0012ABBB /* Thirdparty */ = {
+			isa = PBXGroup;
+			children = (
+				328D93892099C0A20012ABBB /* CountryList */,
+			);
+			path = Thirdparty;
+			sourceTree = "<group>";
+		};
+		328D93892099C0A20012ABBB /* CountryList */ = {
+			isa = PBXGroup;
+			children = (
+				328D938C2099C0B70012ABBB /* Countries.swift */,
+				328D938D2099C0B70012ABBB /* Country.swift */,
+				328D938E2099C0B80012ABBB /* CountryCell.swift */,
+				328D938B2099C0B70012ABBB /* CountryList.h */,
+				328D938A2099C0B70012ABBB /* CountryList.swift */,
+			);
+			path = CountryList;
+			sourceTree = "<group>";
+		};
+		B63381F99B7099B4F2D276F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				743EB6FEACC3511F7FFE6824 /* Pods-RokobitTest.debug.xcconfig */,
+				1510E6FB3F38CBAE38150C3C /* Pods-RokobitTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D1484539833D46C729674EB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9998519F78BFC32B6949644 /* Pods_RokobitTest.framework */,
+				2FF7C2E07AE925B74ACC701C /* Pods_RokobitTestTests.framework */,
+				C901D45F6F008E7B7A1A4024 /* Pods_RokobitTestUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		322954FE2099A29E003819B0 /* RokobitTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 322955272099A29F003819B0 /* Build configuration list for PBXNativeTarget "RokobitTest" */;
+			buildPhases = (
+				EEA38BB94F3F6C54F98AAF10 /* [CP] Check Pods Manifest.lock */,
+				322954FB2099A29E003819B0 /* Sources */,
+				322954FC2099A29E003819B0 /* Frameworks */,
+				322954FD2099A29E003819B0 /* Resources */,
+				B82E4E2BCF6C8536D6D67AA3 /* [CP] Embed Pods Frameworks */,
+				53B76ED9B8F9005A9EABF62E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RokobitTest;
+			productName = RokobitTest;
+			productReference = 322954FF2099A29F003819B0 /* RokobitTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		322955122099A29F003819B0 /* RokobitTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3229552A2099A29F003819B0 /* Build configuration list for PBXNativeTarget "RokobitTestTests" */;
+			buildPhases = (
+				3229550F2099A29F003819B0 /* Sources */,
+				322955102099A29F003819B0 /* Frameworks */,
+				322955112099A29F003819B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				322955152099A29F003819B0 /* PBXTargetDependency */,
+			);
+			name = RokobitTestTests;
+			productName = RokobitTestTests;
+			productReference = 322955132099A29F003819B0 /* RokobitTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3229551D2099A29F003819B0 /* RokobitTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3229552D2099A29F003819B0 /* Build configuration list for PBXNativeTarget "RokobitTestUITests" */;
+			buildPhases = (
+				3229551A2099A29F003819B0 /* Sources */,
+				3229551B2099A29F003819B0 /* Frameworks */,
+				3229551C2099A29F003819B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				322955202099A29F003819B0 /* PBXTargetDependency */,
+			);
+			name = RokobitTestUITests;
+			productName = RokobitTestUITests;
+			productReference = 3229551E2099A29F003819B0 /* RokobitTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		322954F72099A29E003819B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Dima Paliychuk";
+				TargetAttributes = {
+					322954FE2099A29E003819B0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					322955122099A29F003819B0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 322954FE2099A29E003819B0;
+					};
+					3229551D2099A29F003819B0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 322954FE2099A29E003819B0;
+					};
+				};
+			};
+			buildConfigurationList = 322954FA2099A29E003819B0 /* Build configuration list for PBXProject "RokobitTest" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 322954F62099A29E003819B0;
+			productRefGroup = 322955002099A29F003819B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				322954FE2099A29E003819B0 /* RokobitTest */,
+				322955122099A29F003819B0 /* RokobitTestTests */,
+				3229551D2099A29F003819B0 /* RokobitTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		322954FD2099A29E003819B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3229550D2099A29F003819B0 /* LaunchScreen.storyboard in Resources */,
+				328D93822099B1B80012ABBB /* Localizable.strings in Resources */,
+				3229550A2099A29F003819B0 /* Assets.xcassets in Resources */,
+				322955082099A29F003819B0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		322955112099A29F003819B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3229551C2099A29F003819B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		53B76ED9B8F9005A9EABF62E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RokobitTest/Pods-RokobitTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B82E4E2BCF6C8536D6D67AA3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RokobitTest/Pods-RokobitTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/PKHUD/PKHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PKHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RokobitTest/Pods-RokobitTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEA38BB94F3F6C54F98AAF10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RokobitTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		322954FB2099A29E003819B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3267F8562099E3EA00AC7DB5 /* UIStoryBoard.swift in Sources */,
+				328D938F2099C0B80012ABBB /* CountryList.swift in Sources */,
+				328D93942099CB480012ABBB /* Colors.swift in Sources */,
+				322955462099A8EB003819B0 /* BaseService.swift in Sources */,
+				328D93872099B67C0012ABBB /* String+localized.swift in Sources */,
+				328D93912099C0B80012ABBB /* Country.swift in Sources */,
+				322955032099A29F003819B0 /* AppDelegate.swift in Sources */,
+				328D93962099DFE20012ABBB /* HelpLoginVC.swift in Sources */,
+				328D93922099C0B80012ABBB /* CountryCell.swift in Sources */,
+				322955422099A80E003819B0 /* User.swift in Sources */,
+				328D93842099B2B50012ABBB /* MainVC.swift in Sources */,
+				321257032099F64E00DDA8BD /* DBManager.swift in Sources */,
+				322955452099A8EB003819B0 /* DataRequest+JSONJoy.swift in Sources */,
+				3229553A2099A4DA003819B0 /* LoginVC.swift in Sources */,
+				3229553C2099A620003819B0 /* Constants.swift in Sources */,
+				328D93902099C0B80012ABBB /* Countries.swift in Sources */,
+				322955402099A712003819B0 /* API.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3229550F2099A29F003819B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3229551A2099A29F003819B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		322955152099A29F003819B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 322954FE2099A29E003819B0 /* RokobitTest */;
+			targetProxy = 322955142099A29F003819B0 /* PBXContainerItemProxy */;
+		};
+		322955202099A29F003819B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 322954FE2099A29E003819B0 /* RokobitTest */;
+			targetProxy = 3229551F2099A29F003819B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		322955062099A29F003819B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				322955072099A29F003819B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3229550B2099A29F003819B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3229550C2099A29F003819B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		322955252099A29F003819B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		322955262099A29F003819B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		322955282099A29F003819B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 743EB6FEACC3511F7FFE6824 /* Pods-RokobitTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6RCV4Y4RAC;
+				INFOPLIST_FILE = "RokobitTest/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paliychukdima.RokobitTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		322955292099A29F003819B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1510E6FB3F38CBAE38150C3C /* Pods-RokobitTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6RCV4Y4RAC;
+				INFOPLIST_FILE = "RokobitTest/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paliychukdima.RokobitTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3229552B2099A29F003819B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RokobitTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paliychukdima.RokobitTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RokobitTest.app/RokobitTest";
+			};
+			name = Debug;
+		};
+		3229552C2099A29F003819B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RokobitTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paliychukdima.RokobitTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RokobitTest.app/RokobitTest";
+			};
+			name = Release;
+		};
+		3229552E2099A29F003819B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RokobitTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paliychukdima.RokobitTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RokobitTest;
+			};
+			name = Debug;
+		};
+		3229552F2099A29F003819B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RokobitTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paliychukdima.RokobitTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RokobitTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		322954FA2099A29E003819B0 /* Build configuration list for PBXProject "RokobitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				322955252099A29F003819B0 /* Debug */,
+				322955262099A29F003819B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		322955272099A29F003819B0 /* Build configuration list for PBXNativeTarget "RokobitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				322955282099A29F003819B0 /* Debug */,
+				322955292099A29F003819B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3229552A2099A29F003819B0 /* Build configuration list for PBXNativeTarget "RokobitTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3229552B2099A29F003819B0 /* Debug */,
+				3229552C2099A29F003819B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3229552D2099A29F003819B0 /* Build configuration list for PBXNativeTarget "RokobitTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3229552E2099A29F003819B0 /* Debug */,
+				3229552F2099A29F003819B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 322954F72099A29E003819B0 /* Project object */;
+}
